@@ -4,12 +4,22 @@
   "description": "A simple server to host index.html",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -c-1"
+    "start": "npx http-server -c-1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junghh21/autoaction.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/junghh21/autoaction/issues"
+  },
+  "homepage": "https://github.com/junghh21/autoaction#readme"
 }
